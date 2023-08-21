@@ -1,0 +1,69 @@
+table, td, th{
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	padding:10px 15px;
+	font-family: arial;
+}
+
+table{
+	width: 100%;
+}
+
+th{
+	background-color: #5e77e6;
+	color: white;
+	font-weight: 100;
+}
+
+
+
+/*
+========================
+CSS For FORM
+========================
+*/
+
+.mainDiv{
+	width:100vw;
+	height: 100vh;
+	background-color: pink;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+}
+
+.formDiv{
+	width:50%;
+	padding:3rem 2rem;
+	background-color: #7af26d;
+	font-family: arial;
+	border-radius: 10px;
+}
+
+
+input, button{
+	width: 100%;
+	padding:10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
