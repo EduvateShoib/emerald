@@ -49,6 +49,30 @@
 	function light(){
 			document.getElementById("mainBody").style.backgroundColor = "white";
 		}
+
+
+
+
+	
+		let student = {
+			fname : "Mohit",
+			lname : "Sharma",
+			fullName : function (){
+				return this.fname + " " + this.lname
+			}
+		}
+
+		let stu2 = { }
+		
+		stu2.fname = "Mohit"
+		stu2.lname = "Thakur"
+		stu2.fullName = function( ) {
+			return this.fname + " " + this.lname
+		}
+		
+		console.log(stu2.fullName() );
+
+
 	</script>
 		
 	</body>

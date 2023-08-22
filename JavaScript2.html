@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title> Learing JS </title>
+	</head>
+
+<body>
+	<input id="fname" type="text" placeholder="Enter First Name"><br>
+	<input id="lname" type="text" placeholder="Enter Last Name"><br>
+	<button onclick=" fullName() "> Submit </button>
+	
+	<p id="fullName"> </p>
+<script>
+	function fullName(){
+		let firstName = document.getElementById("fname").value;
+		let lastName = document.getElementById("lname").value;
+		
+		document.getElementById("fullName").innerHTML = firstName + " " + lastName;
+	}	
+	
+</script>
+</body>
+</html>
