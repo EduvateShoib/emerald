@@ -4,19 +4,19 @@
 	</head>
 
 <body>
-	<input id="fname" type="text" placeholder="Enter First Name"><br>
-	<input id="lname" type="text" placeholder="Enter Last Name"><br>
-	<button onclick=" fullName() "> Submit </button>
-	
-	<p id="fullName"> </p>
+	<button onclick="day()"> Day </button>
+	<img src="./media/images/day.jpg" width = 300 id="image">
+	<button onclick="night()"> Night </button>
+
+
 <script>
-	function fullName(){
-		let firstName = document.getElementById("fname").value;
-		let lastName = document.getElementById("lname").value;
-		
-		document.getElementById("fullName").innerHTML = firstName + " " + lastName;
-	}	
-	
+	function day(){
+		document.getElementById("image").src="./media/images/day.jpg"
+	}
+
+	function night(){
+		document.getElementById("image").src="./media/images/night.jpg"
+	}
 </script>
 </body>
 </html>
